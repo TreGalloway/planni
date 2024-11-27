@@ -2,9 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/charmbracelet/huh"
+	"os"
+
+	"tregalloway.com/planni/cmd"
 )
 
 func main() {
-	fmt.Println("hello world")
+	if err := cmd.Execute(); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(1)
+	}
 }
