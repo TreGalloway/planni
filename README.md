@@ -5,6 +5,9 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/TreGalloway/planni/go.yml?branch=main)](https://github.com/TreGalloway/planni/actions)
 [![Latest Release](https://img.shields.io/github/v/release/TreGalloway/planni)](https://github.com/TreGalloway/planni/releases)
 
+> **🚧 This Project is a Work in Progress! 🚧**
+> **🚧 This Project is a Work in Progress! 🚧**
+
 `Planni` is a modern, all-in-one CLI designed to be the backbone of your terminal. It reimagines your daily workflow with smart directory navigation, a beautiful and feature-rich file lister, an interactive file browser, and powerful utilities, all within a single, blazingly fast Go binary.
 
 The default terminal commands are powerful, but they haven't fundamentally changed in decades. `planni` is an attempt to build what the terminal experience *could* be—more productive, more intuitive, and visually rich.
