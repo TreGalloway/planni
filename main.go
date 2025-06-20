@@ -1,9 +1,14 @@
 package main
 
 import (
+	"context"
+	"os"
+	"github.com/charmbracelet/fang"	
 	"github.com/TreGalloway/planni/cmd"
 )
 
 func main() {
-	cmd.Execute()
+	if err := fang.Execute(context.Background(), cmd.GetRoot()); err != nil {
+		os.Exit(1)
+	}
 }
